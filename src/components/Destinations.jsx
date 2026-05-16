@@ -14,7 +14,7 @@ const destinations = [
     id: 2,
     name: 'La Paz',
     location: 'La Paz',
-    image: 'https://images.unsplash.com/photo-1589803153545-2a2ec5d6b412?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1506744626753-eda81836a6cb?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
     description: 'La ciudad que toca las nubes, rodeada por el majestuoso nevado Illimani.'
   },
   {
@@ -28,14 +28,14 @@ const destinations = [
     id: 4,
     name: 'Sucre',
     location: 'Chuquisaca',
-    image: 'https://images.unsplash.com/photo-1616091216791-a1215712f84b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
     description: 'La ciudad blanca de América, capital histórica llena de encanto colonial.'
   },
   {
     id: 5,
     name: 'Santa Cruz',
     location: 'Santa Cruz',
-    image: 'https://images.unsplash.com/photo-1634567223011-897dbfc77169?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1519681393784-d120267933ba?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
     description: 'El motor económico y paraíso tropical vibrante del oriente boliviano.'
   },
   {

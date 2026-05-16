@@ -3,10 +3,10 @@ import { motion } from 'framer-motion';
 
 const images = [
   "https://images.unsplash.com/photo-1526398977052-654221a252b1?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
-  "https://images.unsplash.com/photo-1589803153545-2a2ec5d6b412?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+  "https://images.unsplash.com/photo-1506744626753-eda81836a6cb?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
   "https://images.unsplash.com/photo-1596484552834-6a58f850e0a1?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
-  "https://images.unsplash.com/photo-1616091216791-a1215712f84b?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
-  "https://images.unsplash.com/photo-1634567223011-897dbfc77169?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+  "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+  "https://images.unsplash.com/photo-1519681393784-d120267933ba?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
   "https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
 ];
 
