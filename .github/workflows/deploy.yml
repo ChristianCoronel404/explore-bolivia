@@ -1,4 +1,5 @@
 name: Deploy to AWS S3
+
 on:
   push:
     branches:
@@ -9,29 +10,32 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout
-        uses: actions/checkout@v1
+      # Clona el repositorio
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
-      - name: NodeJS Setup
-        uses: actions/setup-node@v1
+      # Configura Node.js
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
         with:
-          node-version: 20.19.2
+          node-version: 20
 
-      - name: Dependency Installation
+      # Instala dependencias
+      - name: Install dependencies
         run: npm install
 
-      - name: App Build
+      # Build de Vite
+      - name: Build app
         run: npm run build
 
-      - name: Congifure AWS Credentials
-        uses: aws-actions/configure-aws-credentials@v1
+      # Configura credenciales AWS
+      - name: Configure AWS Credentials
+        uses: aws-actions/configure-aws-credentials@v4
         with:
-         aws-access-key-id:
-           ${{ secrets.AWS_ACCESS_KEY_ID }}
-         aws-secret-access-key:
-           ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-         aws-region: us-east-1
-      
-      - name: Deploy to AWS S3
-        # CAMBIAR 'jjsmm-react-example' por el nombre de tu bucket de AWS S3
-        run: aws s3 sync dist/ s3://bolivia-travel-christian-coronel-2026 --delete
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: us-east-1
+
+      # Deploy a S3
+      - name: Deploy to S3
+        run: aws s3 sync dist/ s3://bolivia-travel-christian-coronel-2026  --delete
