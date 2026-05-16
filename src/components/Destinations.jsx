@@ -14,7 +14,7 @@ const destinations = [
     id: 2,
     name: 'La Paz',
     location: 'La Paz',
-    image: 'https://images.unsplash.com/photo-1506744626753-eda81836a6cb?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1469474968028-56623f02e42e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
     description: 'La ciudad que toca las nubes, rodeada por el majestuoso nevado Illimani.'
   },
   {
